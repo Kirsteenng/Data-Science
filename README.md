@@ -1,8 +1,8 @@
 # Data Science Portfolio
 This repository contains practice projects that describe my learning process from data exploration, visualisation to building prediction models.
 
-Projects:
-Climate Change: Earth Surface Temperature 
+## Projects
+[Climate Change: Earth Surface Temperature ](https://github.com/Kirsteenng/Data-Science/tree/master/Climate%20Change)
 
 * The data is downloaded from [Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data/notebooks).
 * Constructed a complete list of ISO-3 country list.
