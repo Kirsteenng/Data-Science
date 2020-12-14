@@ -12,8 +12,6 @@ The data used here is from [Kaggle](https://www.kaggle.com/berkeleyearth/climate
 * AverageTemperatureUncertainty: the 95% confidence interval around the average
 * Country: name of the country which will be the key to merge with ISO.csv during EDA process
 
-## Process
-
 ## Results and charts
 Firstly, the average global temperature has risen 280% from around 5dC in 1740 to 20dC in 2013. The greatest increment occurs around 1830 which is speculated to be caused by Industrial Revolution. 
 ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Climate%20Change/trendline.png)
