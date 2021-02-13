@@ -39,11 +39,11 @@ A more accurate study would be to look at the price change in individual buildin
 
 
 We moved on to study the correlation between variables in this data set.
-We plotted a correlationship (https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) between all 10 areas to study what are the relationships between area in this period. 
+We plotted a correlationship ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) between all 10 areas to study what are the relationships between area in this period. 
 This helps to identify the areas that are ideal for investment if one thinks the overall housing market in Hong Kong will improve in the future. 
 The chart shows that Sheung Wan area has the most positive correlations with other areas.
 
-We then study the correlations between variables. Price/ per squarefeet has 0.49 correlationship with Saleable Area, and 0.37 with Area Code. (https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Correlation%20map.png)
+We then study the correlations between variables. Price/ per squarefeet has 0.49 correlationship with Saleable Area, and 0.37 with Area Code. ![corrmap](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Correlation%20map.png)
 The p-value for the two pairs of variables are significantly below 0.05 and hence can be concluded that Saleable Area and the Area Code are significant in affecting the Price/sqft.
 Another strong positive correlationship pair would be Price/sqft and Transaction Price. But because Price/sqft is a function of Transaction Price and Saleable Area, we do not see the reason behind justifying the positive correlation.
 
