@@ -137,6 +137,8 @@ plt.xlabel('Building Age')
 plt.ylabel('Price(000)/sqft')
 plt.legend(bbox_to_anchor=(1, 1), loc='upper left', borderaxespad=0.)
 
+# Pairplot to visualize relationships between variables
+sns.pairplot(df2)
 
 # TODO: try to predict house price per sqft
 # Split data into train, test set. Predict using MLR
