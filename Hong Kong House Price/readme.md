@@ -24,7 +24,7 @@ Hong Kong consists of 4 parts: Hong Kong Island, Kowloon, New Territory and Lant
 The transaction period ranges from July 16 2020 to January 8 2021. In this 6 months, September is the most active month with 544 transactions, whereas January has the lowest due to the lack of data collected in the short timeframe. 
 The number of transaction in January is the least because the data only covers first 8 days of the month. This is one of the limitations of this study and more data will be collected in April to verify this trend.
 The mean number of transaction across 10 locations is 294. The area that has the most transaction is Shaukeiwan(626), followed by Northpoint(512) and Kennedy Town/SYP(497). 
-According to the chart below (https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Change%20in%20price%20over%206%20months.png), the number of transaction has been steadily increasing from July to September but plateued in October to December.
+According to the chart below ![graph](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Change%20in%20price%20over%206%20months.png), the number of transaction has been steadily increasing from July to September but plateued in October to December.
 
 On the other hand, the price per squarefoot shows a cyclical trend. If the price/sqft has gone up too high, it will experience a correction and falls back down. Hence showing a cyclical pattern. Price per squarefoot implies the true supply and demand during that period. Therefore this metric will be used as the true indicator of market demand instead of number of transaction.
 
@@ -39,7 +39,7 @@ A more accurate study would be to look at the price change in individual buildin
 
 
 We moved on to study the correlation between variables in this data set.
-We plotted a correlationship ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) between all 10 areas to study what are the relationships between area in this period. 
+We plotted a correlationship between all 10 areas to study what are the relationships between area in this period. ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) 
 This helps to identify the areas that are ideal for investment if one thinks the overall housing market in Hong Kong will improve in the future. 
 The chart shows that Sheung Wan area has the most positive correlations with other areas.
 
@@ -49,7 +49,7 @@ Another strong positive correlationship pair would be Price/sqft and Transaction
 
 Now can we predict housing prices?
 
-Firstly we plot a pairplot against all variables to observe any patterns(https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/pairplot.png) The variable we are trying to predict is the Price/sqft, the independent variables are Building Age and 
+Firstly we plot a pairplot against all variables to observe any patterns![pairplot](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/pairplot.png) The variable we are trying to predict is the Price/sqft, the independent variables are Building Age and 
 Area Code. We predict using Random Forest Regression because the pairplot does not show any linearity between independent and dependent variables. After a few trial and errors, the most optimum parameters were test_size=0.05(95% of the data set is used to training) and num_estimator = 20(there are 20 decision trees). 
 The R^2 score is 0.75. I am still trying to understand what is the significance of 0.75 and what are better models for this dataset.
 
