@@ -30,9 +30,8 @@ On the other hand, the price per squarefoot shows a cyclical trend. If the price
 
 One question we want to study is which area has the highest retention value. We define area that has high retention value when the price per sqft for buildings beyond 30yo does 
 not drop significantly with building age. A building beyond 30yo is considered an old building by Hong Kong standard. The mean of the building age in our data is 30.8.  
-Based on the charts below, our data shows that the transactions in Sheung Wan, Mid Levels West,
-Mid Level North Point and Happy Valley, have the least fluctuation with building age. 
-![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Buidling%20age%20vs%20price.png)
+Based on the charts below, our data shows that the transactions in Sheung Wan, Mid Levels West,Mid Level North Point and Happy Valley, have the least fluctuation with building age. 
+![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Buidling%20age%20vs%20price1.png)
 ![graph2](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Buidling%20age%20vs%20price2.png)
 
 In other areas such as KennedyTown/SYP and Shaukeiwan, it can be seen that the price/sqft constantly decreases with building age. 
