@@ -31,6 +31,7 @@ On the other hand, the price per squarefoot shows a cyclical trend. If the price
 One question we want to study is which area has the highest retention value. We define area that has high retention value when the price per sqft for buildings beyond 30yo does 
 not drop significantly with building age. A building beyond 30yo is considered an old building by Hong Kong standard. The mean of the building age in our data is 30.8.  
 Based on the charts below, our data shows that the transactions in Sheung Wan, Mid Levels West,Mid Level North Point and Happy Valley, have the least fluctuation with building age. 
+
 ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Buidling%20age%20vs%20price1.png)
 ![graph2](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Buidling%20age%20vs%20price2.png)
 
@@ -40,12 +41,16 @@ A more accurate study would be to look at the price change in individual buildin
 
 
 We moved on to study the correlation between variables in this data set.
-We plotted a correlationship between all 10 areas to study what are the relationships between area in this period. ![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) 
+We plotted a correlationship between all 10 areas to study what are the relationships between area in this period. 
+
+![graph1](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/corr%20between%20areas.png) 
 
 This helps to identify the areas that are ideal for investment if one thinks the overall housing market in Hong Kong will improve in the future. 
 The chart shows that Sheung Wan area has the most positive correlations with other areas.
 
-We then study the correlations between variables. Price/ per squarefeet has 0.49 correlationship with Saleable Area, and 0.37 with Area Code. ![corrmap](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Correlation%20map.png)
+We then study the correlations between variables. Price/ per squarefeet has 0.49 correlationship with Saleable Area, and 0.37 with Area Code. 
+
+![corrmap](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Correlation%20map.png)
 
 The p-value for the two pairs of variables are significantly below 0.05 and hence can be concluded that Saleable Area and the Area Code are significant in affecting the Price/sqft.
 Another strong positive correlationship pair would be Price/sqft and Transaction Price. But because Price/sqft is a function of Transaction Price and Saleable Area, we do not see the reason behind justifying the positive correlation.
