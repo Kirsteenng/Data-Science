@@ -2,7 +2,7 @@
 This repository contains practice projects that describe my learning process from data exploration, visualisation to building prediction models.
 
 ## Projects
-[Climate Change: Earth Surface Temperature ](https://github.com/Kirsteenng/Data-Science/tree/master/Climate%20Change)
+### [Climate Change: Earth Surface Temperature ](https://github.com/Kirsteenng/Data-Science/tree/master/Climate%20Change)
 
 * The data is downloaded from [Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data/notebooks).
 * Constructed a complete list of ISO-3 country list.
@@ -16,7 +16,7 @@ This repository contains practice projects that describe my learning process fro
 ![graph](https://github.com/Kirsteenng/Data-Science/blob/master/Climate%20Change/ClimateChange.png)
 
 
-[Housing Prices in Hong Kong ](https://github.com/Kirsteenng/Data-Science/tree/master/Hong%20Kong%20House%20Price)
+### [Housing Prices in Hong Kong ](https://github.com/Kirsteenng/Data-Science/tree/master/Hong%20Kong%20House%20Price)
 
 * The data is crawled from Centaline which uses transaction data which publishes transaction data from Hong Kong Housing Authorities .
 * Analysed and investigated trends on number of transactions and price/sqft
