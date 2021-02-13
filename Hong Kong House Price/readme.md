@@ -54,14 +54,35 @@ We then study the correlations between variables. Price/ per squarefeet has 0.49
 ![corrmap](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/Correlation%20map.png)
 
 The p-value for the two pairs of variables are significantly below 0.05 and hence can be concluded that Saleable Area and the Area Code are significant in affecting the Price/sqft.
+
 Another strong positive correlationship pair would be Price/sqft and Transaction Price. But because Price/sqft is a function of Transaction Price and Saleable Area, we do not see the reason behind justifying the positive correlation.
 
 Now can we predict housing prices?
 
-Firstly we plot a pairplot against all variables to observe any patterns![pairplot](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/pairplot.png) 
+Firstly we plot a pairplot against all variables to observe any patterns
+
+```
+# Pairplot to visualize relationships between variables
+sns.pairplot(df2)
+```
+
+![pairplot](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/graphs/pairplot.png) 
 
 The variable we are trying to predict is the Price/sqft, the independent variables are Building Age and 
-Area Code. We predict using Random Forest Regression because the pairplot does not show any linearity between independent and dependent variables. After a few trial and errors, the most optimum parameters were test_size=0.05(95% of the data set is used to training) and num_estimator = 20(there are 20 decision trees). 
+Area Code. We predict using Random Forest Regression because the pairplot does not show any linearity between independent and dependent variables. 
+
+```
+In[100]:
+regressor = RandomForestRegressor(n_estimators = 25, random_state = 0)
+regressor.fit(X_train, Y_train)
+Y_pred = regressor.predict(X_test)
+regressor.score(X_test,Y_test)
+
+Out[100]: 0.75353050598497
+
+```
+
+After a few trial and errors, the most optimum parameters were test_size=0.05(95% of the data set is used to training) and num_estimator = 20(there are 20 decision trees). 
 The R^2 score is 0.75. I am still trying to understand what is the significance of 0.75 and what are better models for this dataset.
 
 
