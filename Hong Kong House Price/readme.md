@@ -8,7 +8,8 @@ Hong Kong is one of the most expensive cities in the world to own a house. An av
 
 ## Data 
 The data used here is from [Centaline](http://www1.centadata.com/ephome.aspx). 
-I have built a crawler to collect the data from all region in Hong Kong Island for the past 6months. The crawler file is located here
+I have built a crawler to collect the data from all region in Hong Kong Island for the past 6months. The crawler file is located [here](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/data/crawler.py). The crawler is built using selenium for dynamic webpage.
+
 Hong Kong consists of 4 parts: Hong Kong Island, Kowloon, New Territory and Lantau Island.  For this project I will focus on property transactions on Hong Kong Island.
 
 * Address: Address of the transacted unit in string format
