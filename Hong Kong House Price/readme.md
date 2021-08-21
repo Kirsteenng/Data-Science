@@ -23,3 +23,5 @@ Hong Kong consists of 4 parts: Hong Kong Island, Kowloon, New Territory and Lant
 * Size(sqft): Size of the unit in squarefeet
 * Price/sqft: Transaction price/Saleable Area, a metric to standardize the comparison of prices between different areas.
 
+
+Further details on analysis and findings can be found at my [Jupyter Notebook](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/Analysis.ipynb)
