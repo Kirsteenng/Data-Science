@@ -1,14 +1,16 @@
 
 # Hong Kong Housing Price: Analysis on housing price movement
 
-Hong Kong is one of the most expensive cities in the world to own a house. An average price per squarefoot on Hong Kong island is . The goals of this project are 
-* To collect housing transaction data from [Centaline](http://www1.centadata.com/ephome.aspx), Hong Kong's largest real estate agent site. 
-* To visualise the trend in change over 6 months.
-* To identify related features that would affect housing prices.
+Hong Kong is one of the most expensive cities in the world to own a house. An average price per squarefoot on Hong Kong island is $18,565 . The goals of this project are 
+- Collect data from [Centaline] (https://hk.centanet.com/findproperty/en/list/transaction?q=mptTD0GZW0mpDQyHGtyob)
+- What is the housing transaction trend in Hong Kong Island across this period of time?
+- Which area(s) is/are the most popular?
+- Average price/sqft analysis.
+- Which area and what building age have the highest potential to retain value?
 
 ## Data 
-The data used here is from [Centaline](http://www1.centadata.com/ephome.aspx). 
-I have built a crawler to collect the data from all region in Hong Kong Island for the past 6months. The crawler file is located [here](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/data/crawler.py). The crawler is built using selenium for dynamic webpage.
+The data used here is from Centaline 
+I have built a crawler to collect the data from all region in Hong Kong Island from March 4th to Aug 3rd. The crawler file is located . The crawler is built using selenium for dynamic webpage.
 
 Hong Kong consists of 4 parts: Hong Kong Island, Kowloon, New Territory and Lantau Island.  For this project I will focus on property transactions on Hong Kong Island.
 
