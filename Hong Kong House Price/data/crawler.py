@@ -33,7 +33,7 @@ def get_data(location):
     options = webdriver.ChromeOptions()
     options.add_argument('headless')
     #chrome_options=options
-    browser = webdriver.Chrome('~/Data Science/Hong Kong House Price/data/chromedriver',options = options)
+    browser = webdriver.Chrome('../Data Science/Hong Kong House Price/data/chromedriver',options = options)
     browser.get(location)
     sub_building,extra_sale = {},{}
     main_pg = browser.window_handles[0]
@@ -47,8 +47,6 @@ def get_data(location):
         #time.sleep(3)
         WebDriverWait(browser,3).until(EC.element_to_be_clickable((By.CLASS_NAME, 'btn-next'))).click()
         
-        
-    #total time for 1 row: 65sec, 1 page: 1560sec/26min
     try:
 
         for j in range(0,150):
