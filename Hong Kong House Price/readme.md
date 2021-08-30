@@ -1,12 +1,12 @@
 
 # Hong Kong Housing Price: Analysis on housing price movement
 
-Hong Kong is one of the most expensive cities in the world to own a house. An average price per squarefoot on Hong Kong island is $18,565 . The goals of this project are 
-- Collect data from [Centaline] (https://hk.centanet.com/findproperty/en/list/transaction?q=mptTD0GZW0mpDQyHGtyob)
+Hong Kong is one of the most expensive cities in the world to own a house. An average price per squarefoot on Hong Kong island is $18,565 during March - August 2021. The goals of this project are 
+- Collect data from [Centaline] (https://hk.centanet.com/findproperty/en/list/transaction?q=mptTD0GZW0mpDQyHGtyobA)
 - What is the housing transaction trend in Hong Kong Island across this period of time?
 - Which area(s) is/are the most popular?
-- Average price/sqft analysis.
-- Which area and what building age have the highest potential to retain value?
+- Price trend analysis and build regression model.
+- Learn and practice time series analysis.
 
 ## Data 
 The data used here is from Centaline 
@@ -24,4 +24,4 @@ Hong Kong consists of 4 parts: Hong Kong Island, Kowloon, New Territory and Lant
 * Price/sqft: Transaction price/Saleable Area, a metric to standardize the comparison of prices between different areas.
 
 
-Further details on analysis and findings can be found at my [Jupyter Notebook](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/Analysis.ipynb)
+Further details on analysis and findings can be found at my [Jupyter Notebook](https://github.com/Kirsteenng/Data-Science/blob/master/Hong%20Kong%20House%20Price/Hong%20Kong%20House%20Price%20EDA.ipynb)
