@@ -16,15 +16,21 @@ This repository contains practice projects that describe my learning process fro
 ![graph](https://github.com/Kirsteenng/Data-Science/blob/master/Climate%20Change/ClimateChange.png)
 
 
-### [Housing Prices in Hong Kong ](https://github.com/Kirsteenng/Data-Science/tree/master/Hong%20Kong%20House%20Price)
+### [Prediction Housing Prices in Hong Kong ](https://github.com/Kirsteenng/Data-Science/tree/master/Hong%20Kong%20House%20Price)
 
-* The data is crawled from Centaline which uses transaction data which publishes transaction data from Hong Kong Housing Authorities .
+* The data is crawled from Centaline which uses transaction data which publishes transaction data from Centaline Hong Kong .
 * Analysed and investigated trends on number of transactions and price/sqft
 * Findings: 
   * From March to July 2021, June has the most transaction. North Point was the area with most transaction with 626 units.
   *  30-40year old buildings are the most popular buildings because they have the most optimum retention value in price/sqft.
   *  Happy Valley, Midlevel West, Causewaybay have the highest retention value for old buildings.
+  *  Learnt how to use FB Prophet library to analyse time series data and predict future direction of housing prices.
   
-* Keywords: EDA
+* Keywords: EDA, time series analysis
 
+### [NLP: Natural Disaster Detection using Tweeter Data]()
 
+* The data is provided in a [Kaggle competition](https://www.kaggle.com/c/nlp-getting-started/overview). This is my beginning of exploring NLP projects.
+* Findings/ Experience:
+  * Understood the mathematics and logics behind Linear Support Vector Classfier and Multinomial Naive Bayes.
+  * Learnt how to use Pipe method to construct classifier using text and numerical data.
