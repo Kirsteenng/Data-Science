@@ -28,7 +28,7 @@ This repository contains practice projects that describe my learning process fro
   
 * Keywords: EDA, time series analysis
 
-### [NLP: Natural Disaster Detection using Tweeter Data]()
+### [NLP: Natural Disaster Detection using Tweeter Data](https://github.com/Kirsteenng/Data-Science/tree/master/Tweeter%20for%20Natural%20Disaster)
 
 * The data is provided in a [Kaggle competition](https://www.kaggle.com/c/nlp-getting-started/overview). This is my beginning of exploring NLP projects.
 * Findings/ Experience:
